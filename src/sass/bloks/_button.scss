@@ -8,6 +8,13 @@
     line-height: 19px;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
     border: none;
+    color: $main-color-text;
+    &_main {
+        margin-top: 65px;
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
