@@ -1,7 +1,7 @@
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url(../img/bcg/bg_promo.jpg) center (center/cover) no-repeat;
+    background: url(../img/bcg/bg_promo.jpg) center (center/cover) no-repeat fixed;
     &__wrapper {
         margin-top: 166px;
         display: flex;
@@ -54,5 +54,12 @@
     &__icon,
     &__link {
         color: $main-color-text;
+    }
+}
+
+@media (min-width: 320px) {
+    .promo {
+        min-height: 450px;
+        padding-bottom: 40px;
     }
 }
