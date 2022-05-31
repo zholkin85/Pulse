@@ -57,6 +57,20 @@
     }
 }
 
+@media (max-width: 570px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+}
+
 @media (min-width: 320px) {
     .promo {
         min-height: 450px;
