@@ -1,5 +1,5 @@
 .advantage {
-    height: 473px;
+    min-height: 473px;
     background: #f6f6f6;
     padding: 70px 0 65px 0;
     &__wrapper {
@@ -35,6 +35,31 @@
                 text-decoration: none;
                 color: $main-color;
             }
+        }
+    }
+    @media (max-width: 768px) {
+        &__card {
+            max-width: 202px;
+            h3 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    @media (max-width: 570px) {
+        h2 {
+            font-size: 25px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+        }
+        &__card {
+            max-width: 53%;
+            margin-top: 30px;
         }
     }
 }
