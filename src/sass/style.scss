@@ -1,8 +1,6 @@
 @import 'base/variables';
-@import 'bloks/advantage';
-@import 'bloks/promo';
-@import 'bloks/header';
 @import 'bloks/button';
+@import 'bloks/title';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -12,10 +10,7 @@
     margin: 0 auto;
 }
 
-.title {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: $second-color-text;
-    text-align: center;
-}
+@import 'bloks/advantage';
+@import 'bloks/promo';
+@import 'bloks/header';
+@import 'bloks/consultation';
